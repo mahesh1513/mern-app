@@ -38,5 +38,7 @@ http://localhost:3000
 
 
 Troubleshooting
+
 Docker Not Running: Ensure Docker Desktop is running before using Docker commands.
+
 Ports Conflict: If port 3000 is already in use, you may need to update the docker-compose.yml file to map a different port.
