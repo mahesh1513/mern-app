@@ -7,6 +7,7 @@ Docker: Docker and Docker Compose must be installed on your system.
 Start by cloning the MERN app repository to your local machine. Open your terminal and run the following command:
 
 git clone https://github.com/mahesh1513/mern-app.git
+
 This will create a local copy of the repository in a folder named mern-app.
 
 2. Install Docker
@@ -15,14 +16,7 @@ If you don't have Docker installed, follow the official installation guide:
 Docker Installation Guide
 Ensure that Docker Compose is also installed, as it will be used to build and run the app's containers.
 
-3. Create a Project Folder
-If you want to keep your project in a specific folder, create a new folder and place the cloned repository inside it:
-
-mkdir Mern-app
-mv mern-app/ Mern-app/
-cd Mern-app/mern-app
-
-4. Build and Run the Application with Docker Compose
+3. Build and Run the Application with Docker Compose
 Navigate to the root directory of the project (where the docker-compose.yml file is located) and run the following command to build and start the containers:
 
 docker-compose up --build
@@ -32,7 +26,7 @@ Build the Docker images defined in the docker-compose.yml file.
 Start the MongoDB, Express, React, and Node.js services.
 Once the build is complete, the application should be accessible locally.
 
-5. Accessing the App
+4. Accessing the App
 Once the Docker containers are up and running, you can access the app by navigating to:
 http://localhost:3000
 
