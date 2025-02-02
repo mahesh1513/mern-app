@@ -1,4 +1,4 @@
-Setting Up a MERN Stack Application with Docker
+**Setting Up a MERN Stack Application with Docker**
 
 Prerequisites
 Git: Installed on your machine.
